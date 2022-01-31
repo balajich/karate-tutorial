@@ -1,0 +1,9 @@
+/.idea/
+/02-greeting-api-test-run-ide/.idea/
+/03-greeting-api-test-run-mvn-parallel/.idea/
+/04-greeting-api-test-run-mvn-parallel-cucumber-report/.idea/
+/04-greeting-api-test-run-mvn-parallel-cucumber-report/target/
+/03-greeting-api-test-run-mvn-parallel/target/
+/02-greeting-api-test-run-ide/target/
+/00-rest-api/target/
+/00-rest-api/.idea/
