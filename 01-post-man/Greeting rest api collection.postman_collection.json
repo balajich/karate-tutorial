@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "4865776f-95f1-4835-af21-8bcddb83dc6a",
+		"name": "Greeting rest api collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "01-Get Greeting",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "02-Get Greeting with parameter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
