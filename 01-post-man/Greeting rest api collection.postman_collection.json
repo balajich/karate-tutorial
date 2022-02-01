@@ -30,11 +30,55 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8080/api/greeting",
+					"raw": "localhost:8080/api/greeting?name=Joe",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
+					"path": [
+						"api",
+						"greeting"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Joe"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "03-Get Greeting  UAT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/api/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"api",
+						"greeting"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "04-Get Greeting  Prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/api/greeting",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
 					"path": [
 						"api",
 						"greeting"
