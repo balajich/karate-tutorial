@@ -4,9 +4,26 @@ A Getting Started Guide for Karate Test Automation
 - JDK 1.8 above
 - apache-maven-3.6.3
 # Git Repo
-# Video
-#Examples
-
+```bash
+https://github.com/balajich/karate-tutorial.git
+```
+# Videos
+- Karate  Test Automation: **Session1**
+  - Covers Introduction to Karate
+  - Testing Demo RESTAPI application with Karate
+  - Run using IntelliJ IDE
+  - Terminology
+- Karate  Test Automation: **Session 2**
+  - IDE Integration
+  - Running test with Maven Test Phase
+  - Runtest in Parallel
+  - Cucumber Reports
+- Karate Test Automation : **Session 3**
+  - Converting API test to load tests
+  - Gatling Integration
+  - Understanding Reports
+  - Maven Test
+# Examples
 | No  | Title | Explanation                                                    |
 |-----|-------|----------------------------------------------------------------|
 | 1   |   00-rest-api-greeting    | Sample REST API Application the exposes greeting services      | 
